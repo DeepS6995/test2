@@ -5,4 +5,8 @@ Created on Sat Oct  6 16:59:34 2018
 @author: deepa
 """
 
-print('I am hungry')
+hungry = input('are you hungry?')
+if hungry =='yes':
+    print('eat samosa')
+else:
+    print('do your homework')
